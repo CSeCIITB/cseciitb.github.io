@@ -1,4 +1,6 @@
 import { defineConfig } from "astro/config";
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
@@ -21,6 +23,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [
       remarkToc,
+      remarkMath,
       [
         remarkCollapse,
         {
@@ -28,6 +31,7 @@ export default defineConfig({
         },
       ],
     ],
+    rehypePlugins: [rehypeKatex],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },

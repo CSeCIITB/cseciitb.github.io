@@ -1,13 +1,14 @@
 ---
-author: Sat Naing
-pubDatetime: 2024-01-05T09:30:41.816Z
+author: DarthVishnu
+pubDatetime: 2025-01-05T09:30:41.816Z
 title: SrdnlenCTF 2025 - Cryptography
 slug: "confusion"
 featured: true
 ogImage: ../../assets/images/AstroPaper-v4.png
 tags:
-  - release
-description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging experience."
+  - crypto
+  - srdnlen
+description: "Writeup of the Cryptography challenge Confusion in SrdnlenCTF 2025"
 ---
 
 # Confusion
@@ -67,16 +68,35 @@ Notation wise: $m=m_1m_2m_3\ldots m_n$ and $f = f_1f_2f_3\ldots f_n$
 
 Analysing the encrypt function gives the following pattern:
 
-$$ A = [m_0, m_1, m_2, \ldots m_n] \leftarrow M, \text{ where } m*i = M[32(i-1):32i]$$
-$$B = [b_0, b_1, b_2, \ldots b_n] \leftarrow A \text{ where } b_i = AES_k(m_i)\oplus m*{i-1} $$
-$$C = [c_0, c_1, c_2, \ldots c_n] \leftarrow B \text{ where } c*i = AES^{-1}\_k(b_i)$$
-$$ct = [ct_0, ct_1, ct_2 \ldots ct_n] \leftarrow C \text{ where } ct_i = AES_k(c_i)\oplus c*{i-1}$$
+$$
+A = [m_0, m_1, m_2, \ldots m_n] \leftarrow M, \text{ where } m_i = M[32(i-1):32i]
+$$
+
+$$
+B = [b_0, b_1, b_2, \ldots b_n] \leftarrow A \text{ where } b_i = AES_k(m_i)\oplus m_{i-1}
+$$
+
+$$
+C = [c_0, c_1, c_2, \ldots c_n] \leftarrow B \text{ where } c_i = AES^{-1}_k(b_i)
+$$
+
+$$
+ct = [ct_0, ct_1, ct_2 \ldots ct_n] \leftarrow C \text{ where } ct_i = AES_k(c_i)\oplus c_{i-1}
+$$
 
 Note that here $m_0 = b_0 = c_0 = ct_0 = r$ for some random $r$. Now writing everything in terms of $m_i$ we get:
 
-$$ B = [r,\quad AES_k(m_1)\oplus r, \quad AES_k(m_2)\oplus m_1 \quad \ldots \quad AES_k(m_n)\oplus m_{n-1}]$$
-$$ C = [r, \quad AES_k^{-1}(AES_k(m_1)\oplus r), \quad AES_k^{-1}(AES_k(m_2)\oplus m_1) \quad \ldots \quad AES_k^{-1}(AES_k(m_n)\oplus m_{n-1})]$$
-$$ ct = [r, \: AES_k(m_1), \: AES_k(m_2)\oplus m_1\oplus AES_k^{-1}(AES_k(m_1)\oplus r), \\\: \ldots \: AES_k(m_n)\oplus m_{n-1}\oplus AES_k^{-1}(AES_k(m_{n-1})\oplus m_{n-2})]$$
+$$
+B = [r,\quad AES_k(m_1)\oplus r, \quad AES_k(m_2)\oplus m_1 \quad \ldots \quad AES_k(m_n)\oplus m_{n-1}]
+$$
+
+$$
+C = [r, \quad AES_k^{-1}(AES_k(m_1)\oplus r), \quad AES_k^{-1}(AES_k(m_2)\oplus m_1) \quad \ldots \quad AES_k^{-1}(AES_k(m_n)\oplus m_{n-1})]
+$$
+
+$$
+ct = [r, \: AES_k(m_1), \: AES_k(m_2)\oplus m_1\oplus AES_k^{-1}(AES_k(m_1)\oplus r), \\\: \ldots \: AES_k(m_n)\oplus m_{n-1}\oplus AES_k^{-1}(AES_k(m_{n-1})\oplus m_{n-2})]
+$$
 
 Also we are given the ciphertext for the flag along with the encryption oracle, say $ct_f$. To find the decryption of the flag's ct we need to somehow use the oracle to find decryptions of messages. Looking at the final form of ct, the fourth term is the one which is the most helpful.
 $$ct[3] = AES_k(m_3)\oplus m_2\oplus AES_k^{-1}(AES_k(m_2)\oplus m_1)$$
