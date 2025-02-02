@@ -19,7 +19,7 @@ Join us in our mission to make cyber security accessible, engaging, and impactfu
 ## <span style="color: #E6E6FA; font-size: 1.75rem;">Manager</span>
 
 <div style="margin: 1.5rem 0;">
-  <img src="/public/team/Lakshya.jpeg" alt="Manager Image" style="width: 400px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+  <img src="/team/Lakshya.jpeg" alt="Manager Image" style="width: 400px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
   <span style="margin-top: 1rem; color: #00F0F0; font-size: 1.25rem;"><b>Lakshya Gadhwal (DarthVishnu)</b></span><br>
   <span style="font-size: 1rem; color: #FF6347;">Rev | Pwn | Game Hacking</span>
 </div>
@@ -32,42 +32,42 @@ Join us in our mission to make cyber security accessible, engaging, and impactfu
 
   <!-- Team Member 1 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Aayush.jpg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Aayush.jpg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Aayush Borkar</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">Pwn | Rev | Crypto</span>
   </div>
 
   <!-- Team Member 2 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Harsh.jpg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Harsh.jpg" alt="Team Member 2" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Harsh Suthar (DustOfNow)</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">Web Exp | Chess</span>
   </div>
 
   <!-- Team Member 3 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Mohana.jpg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Mohana.jpg" alt="Team Member 3" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Evuri Mohana Sreedhara Reddy (rennaMAhcuS)</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">Sleep | Forensics | OSINT | Sleep</span>
   </div>
 
   <!-- Team Member 4 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Niral.jpeg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Niral.jpeg" alt="Team Member 4" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Niral Charan (Chiral Naran)</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">Segmentation | Fault | Core | Dumped</span>
   </div>
 
   <!-- Team Member 5 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Ratan.png" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Ratan.png" alt="Team Member 5" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Ratan Kokal</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">Cryptography | Digital Forensics | Gaming</span>
   </div>
 
   <!-- Team Member 6 -->
   <div style="width: 200px; text-align: center;">
-    <img src="/public/team/Samanth.jpg" alt="Team Member 1" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
+    <img src="/team/Samanth.jpg" alt="Team Member 6" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem"><b>Samanth Martis (AlmightyMortal)</b></span><br>
     <span style="font-size: 1rem; color: #FF6347;">SCP | 40K | Rev</span>
   </div>

@@ -15,7 +15,7 @@ const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
-const socialCount = SOCIALS.filter(social => social.active).length;
+const socialCount = SOCIALS.filter((social) => social.active).length;
 ---
 
 <Layout>
@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <h1>Cyber Security Community</h1>
-      <img src="/public/csec_logo.png" alt="logo" class='center'/>
+      <img src="/csec_logo.png" alt="logo" class="center" />
 
       <p>
         Welcome to the Cyber security community at IIT Bombay! We're a group of
@@ -81,7 +81,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
                     frontmatter={data}
                     secHeading={false}
                   />
-                )
+                ),
             )}
           </ul>
         </section>
