@@ -1,19 +1,19 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://cseciitb.github.io/", // replace this with your deployed domain
+  author: "CSeC IITB",
+  profile: "https://cseciitb.github.io/",
+  desc: "Cyber Security Community - IIT Bombay",
   title: "CSeC",
-  ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  ogImage: "csec_logo.png",
+  lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/CSeCIITB/cseciitb.github.io/edit/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },
