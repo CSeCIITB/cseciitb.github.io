@@ -3,7 +3,7 @@ author: DarthVishnu
 pubDatetime: 2025-02-01T00:00:00Z
 title: TJCTF 2024 - pwn ring-opening-polymerization
 slug: "TJCTF2024ring-opening-polymerization"
-featured: true
+featured: false
 tags:
   - pwn
   - TJCTF

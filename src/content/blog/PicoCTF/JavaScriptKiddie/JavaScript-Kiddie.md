@@ -3,7 +3,7 @@ author: DustOfSnow
 pubDatetime: 2025-02-01T00:00:00Z
 title: PicoCTF - forensics JavaScriptKiddie
 slug: "PicoCTFJavaScriptKiddie"
-featured: true
+featured: false
 tags:
   - forensics
   - PicoCTF

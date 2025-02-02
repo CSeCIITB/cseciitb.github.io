@@ -3,7 +3,7 @@ author: rennaMAhcuS
 pubDatetime: 2025-02-01T00:00:00Z
 title: SDCTF 2024 - forensics watch-the-waves
 slug: "GPNCTF2024watch-the-waves"
-featured: true
+featured: false
 tags:
   - forensics
   - SDCTF

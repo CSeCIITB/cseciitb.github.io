@@ -1,13 +1,13 @@
 ---
-author: kremlin-showers
+author: CSeCIITB
 pubDatetime: 2025-02-01T00:00:00Z
-title: TUCTF 2024 - Cryptography my-first-encryption
-slug: "TUCTF2024my-first-encryption"
+title: TUCTF 2024
+slug: "TUCTF2024"
 featured: true
 tags:
   - crypto
   - TUCTF
-description: "Writeup of the Cryptography challenge my-first-encryption in TUCTF 2025"
+description: "Writeup of TUCTF 2024"
 ---
 
 # TUCTF 2024 Writeup

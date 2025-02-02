@@ -3,7 +3,7 @@ author: aayushborkar14
 pubDatetime: 2025-02-01T00:00:00Z
 title: SDCTF 2024 - web/crypto raccoon-run
 slug: "SDCTF2024raccoon-run"
-featured: true
+featured: false
 tags:
   - crypto
   - web

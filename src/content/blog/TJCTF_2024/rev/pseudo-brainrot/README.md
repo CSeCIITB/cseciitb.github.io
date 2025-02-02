@@ -3,7 +3,7 @@ author: Sam-MARTis
 pubDatetime: 2025-02-01T00:00:00Z
 title: TJCTF 2024 - rev pseudo-brainrot
 slug: "TJCTF2024pseudo-brainrot"
-featured: true
+featured: false
 tags:
   - rev
   - TJCTF

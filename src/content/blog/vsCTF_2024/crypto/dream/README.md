@@ -1,9 +1,9 @@
 ---
 author: Sam-MARTis
 pubDatetime: 2025-02-01T00:00:00Z
-title: vsCTF 2025 - Cryptography dream
-slug: "vsCTF2025dream"
-featured: true
+title: vsCTF 2024 - Cryptography dream
+slug: "vsCTF2024dream"
+featured: false
 tags:
   - crypto
   - vsCTF
