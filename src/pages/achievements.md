@@ -5,8 +5,8 @@ title: "Achievements"
 
 ## 2025
 
-- 17th Rank Globally @ [TUCTF 2024](https://ctftime.org/event)
-- 37th Rank Globally @ [Nullcon Goa HackIM 2025 CTF](https://ctftime.org/event)
+- 17th Rank Globally @ [TUCTF 2024](https://ctftime.org/event/2584)
+- 37th Rank Globally @ [Nullcon Goa HackIM 2025 CTF](https://ctftime.org/event/2642)
 
 ## 2024
 
