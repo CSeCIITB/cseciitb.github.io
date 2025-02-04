@@ -1,6 +1,6 @@
 ---
 author: CSeCIITB
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2025-01-31T00:00:00Z
 title: TUCTF 2024
 slug: "TUCTF2024"
 featured: true

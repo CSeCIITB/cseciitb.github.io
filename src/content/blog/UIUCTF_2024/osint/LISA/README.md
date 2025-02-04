@@ -1,9 +1,9 @@
 ---
 author: rennaMAhcuS
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-07-18T00:00:00Z
 title: UIUCTF 2024 - osint LISA
 slug: "UIUCTF2024LISA"
-featured: true
+featured: false
 tags:
   - OSINT
   - UIUCTF

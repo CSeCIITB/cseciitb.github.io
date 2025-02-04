@@ -1,6 +1,6 @@
 ---
 author: DarthVishnu
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-05-22T00:00:00Z
 title: TJCTF 2024 - pwn ring-opening-polymerization
 slug: "TJCTF2024ring-opening-polymerization"
 featured: false

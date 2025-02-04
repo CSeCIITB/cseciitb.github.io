@@ -1,9 +1,9 @@
 ---
 author: RatanKokal
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-07-16T00:00:00Z
 title: TJCTF 2024 - crypto alkane
 slug: "TJCTF2024alkane"
-featured: true
+featured: false
 tags:
   - crypto
   - TJCTF

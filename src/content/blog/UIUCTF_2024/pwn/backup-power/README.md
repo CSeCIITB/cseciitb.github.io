@@ -1,9 +1,9 @@
 ---
 author: aayushborkar14
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-07-03T00:00:00Z
 title: UIUCTF 2024 - Pwn backup-power
 slug: "UIUCTF2024backup-power"
-featured: true
+featured: false
 tags:
   - pwn
   - UIUCTF

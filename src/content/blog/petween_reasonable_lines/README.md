@@ -1,9 +1,9 @@
 ---
 author: aayushborkar14
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-06-10T00:00:00Z
 title: GPNCTF 2024 - Pwn petween_reasonable_lines
 slug: "GPNCTF2024petween_reasonable_lines"
-featured: true
+featured: false
 tags:
   - pwn
   - GPNCTF

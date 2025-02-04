@@ -3,7 +3,7 @@ author: DarthVishnu
 pubDatetime: 2025-01-24T00:00:00Z
 title: SrdnlenCTF 2025 - Cryptography confusion
 slug: "Srdlen2025Confusion"
-featured: true
+featured: false
 tags:
   - crypto
   - srdnlen

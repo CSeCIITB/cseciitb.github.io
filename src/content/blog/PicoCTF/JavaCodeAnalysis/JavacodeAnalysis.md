@@ -1,6 +1,6 @@
 ---
 author: DustOfSnow
-pubDatetime: 2025-02-01T00:00:00Z
+pubDatetime: 2024-06-11T00:00:00Z
 title: PicoCTF - web JavaCodeAnalysis
 slug: "PicoCTFJavaCodeAnalysis"
 featured: false
