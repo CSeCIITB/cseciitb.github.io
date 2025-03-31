@@ -75,6 +75,11 @@ const { activeNav } = Astro.props;
               Achievements
             </a>
           </li>
+          <li>
+            <a href="/resources/" class={activeNav === "resources" ? "active" : ""}>
+              Resources
+            </a>
+          </li>
           {
             SITE.showArchives && (
               <li>
