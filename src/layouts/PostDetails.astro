@@ -96,6 +96,13 @@ const nextPost =
       <Content />
     </article>
 
+<!-- Author Section -->
+{author && (
+  <div class="mt-16 border-t border-skin-border pt-8 text-center">
+    <div class="text-lg text-skin-muted">Written by</div>
+    <div class="text-2xl font-semibold text-skin-base mt-1">{author}</div>
+  </div>
+)}
     <ul class="my-8">
       {tags.map((tag) => <Tag tag={slugifyStr(tag)} />)}
     </ul>
