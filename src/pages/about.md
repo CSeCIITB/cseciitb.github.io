@@ -57,7 +57,7 @@ Join us in our mission to make cyber security accessible, engaging, and impactfu
   <!-- Team Member 5 -->
   <div style="width: 200px; text-align: center;">
     <img src="/team/AnshAggrawal.jpg" alt="Ansh Aggrawal" style="width: 200px; height: 140px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
-    <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem;"><b>Ansh Aggrawal</b></span>
+    <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem;"><b>Ansh Agrawal</b></span>
   </div>
 
   <!-- Team Member 6 -->
