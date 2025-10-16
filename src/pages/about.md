@@ -64,7 +64,6 @@ Join us in our mission to make cyber security accessible, engaging, and impactfu
   <div style="width: 200px; text-align: center;">
     <img src="/team/Keshav.jpg" alt="Keshav Kumar" style="width: 200px; height: 140px; object-fit: cover; opacity: 0.5; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);">
     <span style="margin-top: 0.5rem; color: #00F0F0; font-size: 1.25rem;"><b>Keshav Kumar</b></span><br>
-    <span style="font-size: 0.9rem; color: #FF6347;">(Image coming soon)</span>
   </div>
 
 </div>
